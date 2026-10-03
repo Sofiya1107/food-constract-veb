@@ -1,0 +1,41 @@
+header,
+nav,
+footer,
+button,
+.add-btn {
+    display: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+section,
+.dish-card,
+table {
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+}
+
+th, td {
+    padding: 6px 10px;
+    border: 1px solid #333;
+}
+
+h1, h2 {
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
